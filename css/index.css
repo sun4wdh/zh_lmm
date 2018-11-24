@@ -1,0 +1,127 @@
+@import "base.css";
+/*头部*/
+.lmm_head {
+  display: flex;
+  height: 50px;
+}
+.lmm_head select,
+.lmm_head img {
+  width: 8%;
+}
+.lmm_head h3 {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  font-weight: normal;
+}
+.lmm_head select {
+  border: none;
+  color: #d3079e;
+  background-color: #f1f1f1;
+}
+.lmm_head img {
+  padding-top: 5px;
+  height: 40px;
+  width: 4%;
+}
+/*主体*/
+/*轮播图*/
+.swiper-container {
+  width: 100%;
+}
+/*6个列表*/
+.nav_list {
+  margin: 8px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+}
+.nav_list li {
+  width: 32.5%;
+  margin-bottom: 7px;
+}
+/*8个列表*/
+.nav_list2 {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 #ddd;
+}
+.nav_list2 li {
+  width: 25%;
+  outline: 1px solid #ddd;
+}
+/*卖*/
+.nav_sell {
+  display: flex;
+}
+.nav_sell .sellLeft,
+.nav_sell .sellRight {
+  flex: 1;
+}
+.nav_sell .sellLeft {
+  border-right: 1px solid #ddd;
+}
+.nav_sell .sellRight img:nth-of-type(1) {
+  border-bottom: 1px solid #ddd;
+}
+/*热门*/
+.hot {
+  margin-top: 15px;
+}
+.hot h3 {
+  background-color: #f1f1f1;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-indent: 1em;
+}
+.hot li {
+  border-top: 1px solid #ddd;
+}
+/*度假*/
+.makeHoliday {
+  margin-top: 5px;
+}
+.makeHoliday .holidayTable {
+  padding-bottom: 5px;
+  display: flex;
+}
+.makeHoliday .holidayTable > div {
+  flex: 1;
+  text-align: center;
+}
+.makeHoliday .holidayTable div:nth-of-type(1) > a {
+  border-bottom: 2px solid #d3079e;
+}
+.makeHoliday > ul li {
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 #ddd;
+}
+.makeHoliday > ul li > p {
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+/*更多*/
+.more {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 0 #ffffff;
+  text-align: center;
+}
+.more > select {
+  border: none;
+  background-color: #ffffff;
+}
+/*尾部*/
+.foot {
+  background-color: #d3079e;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+.foot a {
+  color: white;
+}

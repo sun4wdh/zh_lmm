@@ -1,0 +1,131 @@
+@import "base.css";
+/*头部*/
+.lmm_head{
+  display: flex;
+  height: 50px;
+  select,img{
+    width: 8%;
+  }
+  h3{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+  }
+  select{
+    border: none;
+    color:#d3079e;
+    background-color: #f1f1f1;
+  }
+  img{
+    padding-top: 5px;
+    height: 40px;
+    width: 4%;
+  }
+}
+/*主体*/
+/*轮播图*/
+.swiper-container{
+  width: 100%;
+}
+/*6个列表*/
+.nav_list{
+  margin: 8px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  li{
+    width: 32.5%;
+    margin-bottom: 7px;
+  }
+}
+/*8个列表*/
+.nav_list2{
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 #ddd;
+  li{
+    width: 25%;
+    outline: 1px solid #ddd;
+  }
+}
+/*卖*/
+.nav_sell{         
+  display: flex;
+  .sellLeft,.sellRight{
+    flex: 1;
+  }
+  .sellLeft{
+    border-right: 1px solid #ddd;
+  }
+  .sellRight{
+    img:nth-of-type(1){
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}
+/*热门*/
+.hot{
+  margin-top: 15px;
+  h3{
+    background-color: #f1f1f1;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 1em;
+  }
+  li{
+    border-top: 1px solid #ddd;
+  }
+}
+/*度假*/
+.makeHoliday{
+  margin-top: 5px;
+  .holidayTable{
+    padding-bottom: 5px;
+    display: flex;
+    >div{
+      flex: 1;
+      text-align: center;
+    }
+    div:nth-of-type(1){
+      >a{
+        border-bottom: 2px solid #d3079e;
+      }
+    }
+  }
+  >ul{
+    li{
+      margin-bottom: 10px;
+      box-shadow: 0 1px 0 #ddd;
+      >p{
+        padding-top: 1px;
+        padding-bottom: 3px;
+      }
+    }
+  }
+}
+/*更多*/
+.more{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 0 #ffffff;
+  text-align: center;
+  >select{
+    border: none;
+    background-color: #ffffff;
+  }
+}
+/*尾部*/
+.foot{
+  background-color: #d3079e;
+  display: flex;
+  justify-content: space-between;  
+  padding: 5px 5px;
+  a{
+    color:white;
+  }
+}
